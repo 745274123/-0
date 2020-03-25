@@ -1,0 +1,70 @@
+.header #black{color:#666;}
+.header #black:hover,.header .current{ border-color:#7b6cd5;}
+div.top{height: 95px; width: 100%; background-color: #7b6cd5;}
+.top .top-title{ margin: 0 auto;width: 1170px; line-height:95px;vertical-align: middle;}
+.top .top-title .top-nav{float: left; font-size: 48px; font-family:"Poppins"; color: white;}
+.top .top-title a{ color: #cac4ee;}
+.top .top-title p{ float: right; font-size: 18px; color: #cac4ee;}
+.content{width:1170px; margin:0px auto; padding-top:50px;}
+.content .featrue{overflow:hidden;}
+.content .featrue .image ul{width:127px; margin-right:10px;}
+.content .featrue .image ul li{margin-bottom:10px;}
+.content .featrue .image .image-big{width:432px; height:404px;background:url(../../../img/shop/shop_SingleProduct/Rectangle01.png); background-size:100% 100%;}
+
+.content .featrue .featrue-content{width:570px; }
+.content .featrue .featrue-content h2{font-family:"Poppins"; font-size:36px; color:#7b6cd5; padding-bottom:10px;}
+.content .featrue .featrue-content .star{font-family:"PTSans"; font-size:16px; color:#939495; height:25px; line-height:25px;}
+.content .featrue .featrue-content .star img{margin-right:10px;}
+.content .featrue .featrue-content span{font-family:"Poppins"; line-height:80px; font-size:36px; color:#ea8fca;}
+.content .featrue .featrue-content span.del{font-size:24px; color:#c0c0c1; text-decoration:line-through; display:inline-block; width:84px;}
+.content .featrue .featrue-content p{font-family:"PTSans"; font-size:18px; color:#707273; line-height:28px;}
+.content .featrue .cart{ position:relative;}
+.content .featrue .cart .num{width:58px; height:38px; border:1px solid #bdb5ea; border-radius:19px; margin-top:44px; padding:0 16px; display:inline-block;}
+.content .featrue .cart .num .text{width:40px; height:38px; line-height:38px; text-align:center; font-family:"PTSans"; font-size:18px; color:#707273; border:none; outline:none;}
+.content .featrue .cart .num .btn{width:11px; height:38px; position:relative;}
+.content .featrue .cart .num .btn img{position:absolute; cursor:pointer;}
+.content .featrue .cart .num .btn img.add{top:8px;}
+.content .featrue .cart .num .btn img.minus{bottom:8px;}
+.content .featrue .cart>input{width:214px; height:46px; border:none; border-radius:23px; background:#ea8fca; font-family:"PTSans"; font-size:20px; color:#ffffff; outline:none; cursor:pointer; position:absolute; top:40px; left:100px;}
+.middle-content ul.title{width:1170px; height:38px; margin:68px auto 30px; border-bottom:4px solid #f2f0fb;}
+.middle-content ul.title li{height:38px; padding:0px 30px; border-bottom:4px solid #f2f0fb; float:left; font-family:"Poppins"; font-size:18px; color:#7b6cd5; line-height:38px; cursor:pointer;}
+.middle-content ul.title li a{color:#ea8fca;}
+.middle-content ul.title li.on,.middle-content ul.title li:hover{border-color:#7b6cd5;}
+.middle-content .tap ul{display:none;}
+.middle-content .tap ul.on{display:block;}
+.middle-content .first{font-family:"PTSans"; font-size:18px; line-height:28px; color:#707273;}
+.middle-content .pro-featrue li{height:50px; border-bottom:1px solid #e5e2f7; }
+.middle-content .pro-featrue li span{font-family:"PTSans"; font-size:18px; line-height:50px; color:#707273;}
+.middle-content .reviews{margin-top:30px;}
+.middle-content .reviews .reviews-top{overflow:hidden;}
+.middle-content .reviews .reviews-top img{margin-right:16px;}
+.middle-content .reviews .reviews-top div h2{font-family:"PTSans"; font-size:16px; color:#7b6cd5;}
+.middle-content .reviews .reviews-top div h2 span{font-size:14px; padding:0px 10px;}
+.middle-content .reviews .reviews-top div span.iconfont{color:#ffc107; font-size:18px;}
+.middle-content .reviews .reviews-top div p{font-family:"PTSans"; font-size:16px; color:#707273; line-height:30px;}
+.middle-content .reviews .reviews-bottom{padding:30px 20px; background:#f6f5fc; margin-top:30px; overflow:hidden;}
+.middle-content .reviews .reviews-bottom h2{font-family:"Poppins"; font-size:24px; color:#7b6cd5; margin-bottom:10px;}
+.middle-content .reviews .reviews-bottom div{ display:inline-block; margin-rirght:}
+.middle-content .reviews .reviews-bottom p{text-indent:10px; margin:10px 0px; font-family:"PTSans"; font-size:18px; color:#707273;}
+.middle-content .reviews .reviews-bottom div input{width:528px; height:38px; outline:none; border:1px solid #b8b0e8; border-radius:19px; background:#fff; padding:0px 10px;}
+.middle-content .reviews .reviews-bottom .rating{margin-left:10px; }
+.middle-content .reviews .reviews-bottom .rating span{color:#b3b3b7; cursor:pointer;}
+.middle-content .reviews .reviews-bottom textarea{width:100%; height:82px; border:1px solid #b8b0e8; outline:none; resize:none; border-radius:20px; padding:20px; box-sizing: border-box;}
+.middle-content .reviews .reviews-bottom .submit{display:inline-block; width:172px; height:46px; border-radius:23px; background:#ea8fca; font-family:"PTSans"; font-size: 20px; color:#ffffff; text-align:center; line-height: 46px; margin-top:20px;}
+
+.content .pro-item h2{font-family:"Poppins"; font-size:36px; line-height:100px; color:#7b6cd5; padding-top:45px;}
+.content .pro-item ul{width:1200px;margin:0px auto;padding-bottom:30px; overflow:hidden;}
+.content .pro-item ul li{width:270px; height:506px; float:left; text-align:center;margin-right:30px;}
+.content .pro-item ul li a img{width:270px; height:270px;}
+.content .pro-item ul li p{height:50px; font-family:"Poppins"; font-size:22px; line-height:50px; color:#7b6cd5; font-weight:600;}
+.content .pro-item ul li p.money{height:56px;}
+.content .pro-item ul li p span{font-family:"Poppins"; font-size:22px; line-height:56px; color:#ea8fca; font-weight:500;}
+.content .pro-item ul li p .del{text-decoration:line-through; font-size:18px; color:#707273;padding-right:10px;}
+.content .pro-item ul li div a{width:214px; height:46px; border-radius:23px; background:#ea8fca; display:inline-block;font-family:"PTSans"; font-size:20px; line-height:46px; color:#ffffff;}
+
+
+
+
+
+
+

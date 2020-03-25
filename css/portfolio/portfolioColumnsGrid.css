@@ -1,0 +1,135 @@
+body {
+    overflow-x: hidden;
+}
+
+.content {
+    text-align: center;
+    margin: 100px auto;
+    position: relative;
+}
+
+/*info处的选项卡*/
+.content .tab .tab-list {
+    position: relative;
+    top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content .tab .tab-list a {
+    display: inline-block;
+    line-height: 40px;
+    width: 172px;
+    height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 20px 20px;
+    color: #3c3b4b;
+}
+
+/*灰色原点中间线*/
+.content .tab .tab-list .tab-line {
+    position: absolute;
+    /*top: 85px;*/
+    top: 50%;
+    left: 50%;
+    width: 860px;
+    margin-top: 45px;
+    margin-left: -426px;
+    display: inline-block;
+    border: 1px solid #e7e5f4;
+}
+
+.content .tab .tab-list a:hover {
+    width: 172px;
+    height: 40px;
+    border-radius: 30px;
+    background: #ffe2f5;
+    transition: all 0.2s;
+}
+
+/*椭圆下三角*/
+.content .tab .tab-list a:hover:before {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    content: "";
+    border-style: solid;
+    border-color: #ffe2f5 transparent transparent transparent;
+    border-width: 10px;
+}
+
+/*三角下亮色原点*/
+.content .tab .tab-list a:hover:after {
+    position: absolute;
+    top: 58px;
+    left: 82px;
+    z-index: 1;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #ea8fca;
+    border-width: 10px;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+/*灰色圆点*/
+.content .tab .tab-list a:after {
+    position: absolute;
+    top: 61px;
+    left: 85px;
+    content: "";
+    /*再去掉内部宽高*/
+    width: 10px;
+    height: 10px;
+    background: #e7e5f4;
+    border-width: 10px;
+    border-radius: 50%;
+}
+
+.content ul li {
+    margin: 0 15px;
+    width: 270px;
+    display: inline-block;
+    list-style: none;
+}
+
+/*照片与图案间距*/
+.content ul li > img:nth-child(1) {
+    margin-top: 40px;
+}
+
+.content ul li h5 {
+    margin-top: 18px;
+    font-family: Poppins-Medium;
+    font-size: 24px;
+    color: #7b6cd5;
+}
+
+.content ul li p {
+    margin-top: 14px;
+    margin-bottom: 16px;
+    font-family: "PTSans Regular";
+    font-size: 18px;
+    color: #707273;
+}
+
+.content .btn {
+    margin-top: 24px;
+}
+
+.content .btn span {
+    display: inline-block;
+    width: 312px;
+    height: 60px;
+    line-height: 60px;
+    color: #ffffff;
+    font-family: PTSans;
+    font-weight: bold;
+    font-size: 25px;
+    background: #ea8fca;
+    border-radius: 30px;
+    cursor: pointer;
+}
+

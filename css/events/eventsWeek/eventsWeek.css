@@ -1,0 +1,207 @@
+/*ALL EVENTS*/
+.top-banner .top-banner-list li{
+    width: 1920px;
+    margin: 0 auto;
+}
+.content-title{
+    width: 1170px;
+    margin: 0 auto;
+}
+.content-title ul li{
+    width: 1170px;
+}
+.content-title-image{
+    position: relative;
+    left: 525px;
+    margin-top: 35px;
+}
+.content-title-title p{
+    height: 60px;
+    line-height: 42px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    color: #7b6cd5;
+}
+.content-title-info p{
+    line-height: 30px;
+    text-align: center;
+    font-family: PTSans;
+    font-size: 18px;
+    color: #7a7b7c;
+}
+/*Events搜索栏*/
+.content-search{
+    background-color: #7b6cd5;
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.content-search ul{
+    height: 150px;
+    overflow: hidden;
+}
+.content-search ul li{
+    float: left;
+    height: 80px;
+    margin: 25px 10px 40px;
+}
+.content-search ul li p{
+    font-family: Poppins;
+    font-size: 20px;
+    color: #ffffff;
+}
+.content-search ul li input{
+    width: 400px;
+    height: 50px;
+    margin-top: 5px;
+    padding: 0 25px;
+    border-radius: 25px;
+    border: 0;
+    outline: none;
+}
+.content-search ul li input::-webkit-input-placeholder{
+    font-family: PTSans;
+    font-size: 18px;
+    color: #a1a3a3;
+}
+.content-search ul .Find-Events{
+    width: 230px;
+}
+.content-search ul .Find-Events input{
+    width: 230px;
+    height: 50px;
+    margin-top: 40px;
+    font-family: PTSans;
+    font-size: 25px;
+    background-color: #ea8fca;
+    color: #ffffff;
+    cursor:pointer;
+}
+/*月，周，天  轴线*/
+.timer-tab-list{
+    margin-top: 52px;
+    height: 100px;
+    text-align: center;
+}
+.timer-hr{
+    margin: 21px auto;
+    width: 370px;
+    height: 1px;
+    border: none;
+    background-color: #e7e5f4;
+}
+.timer-tab-list a.timer-tab{
+    width: 170px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.content .content-time{
+    width: 1170px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-family:PTSans ;
+    font-size: 20px;
+    color: #9d9ea3;
+    margin: 0 auto 30px;
+}
+/*图片活动部分*/
+.content-information{
+    width: 1170px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.information-picture{
+    width: 570px;
+    height: 367px;
+    float: left;
+}
+.information{
+    width: 575px;
+    height: 385px;
+    float: left;
+    margin-left:25px ;
+    position: relative;
+}
+.information .title{
+    font-family: Poppins;
+    font-size: 24px;
+    color: #aea6e4;
+}
+.information .price {
+    width: 85px;
+    height: 32px;
+    border-radius: 15px;
+    float: right;
+}
+.information .information-date{
+    font-family: PTSans;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d4558c;
+}
+.information .main-massage{
+    font-family: PTSans;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #707273;
+    margin-top: 20px;
+}
+.information .main-time{
+    font-family: PTSans;
+    font-size: 18px;
+    font-weight: bold;
+    color: #707273;
+    margin-top: 40px;
+}
+.information .main-address{
+    font-family: PTSans;
+    font-size: 18px;
+    font-weight: bold;
+    color: #707273;
+    margin-top: 25px;
+}
+.information .join-event{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: PTSans;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ea8fca;
+    border-radius: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.information .join-event a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.content .content-line{
+    margin:35px 0;
+}
+.export{
+    width: 1170px;
+    margin: 0 auto 50px;
+}
+.export-month-events{
+    width: 300px;
+    height: 50px;
+    background-color: #ea8fca;
+    font-family: PTSans;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.export-month-events a{
+    text-decoration: none;
+    color: #ffffff;
+}
+

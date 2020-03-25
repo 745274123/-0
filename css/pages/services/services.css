@@ -1,0 +1,534 @@
+body{
+    /*overflow-x: hidden;*/
+}
+/*轮播图上文字*/
+.services-banner-font {
+    /*border: 1px solid red;*/
+    position: absolute;
+    top: 135px;
+    left: 656px;
+    text-align: center;
+    width: 600px;
+}
+
+.services-banner-font span {
+    font-size: 72px;
+    color: #fff;
+}
+
+.services-banner-font p {
+    font-size: 24px;
+    color: #fff;
+}
+
+/*SERVICES FOR YOU内容*/
+.services-info {
+    width: 1920px;
+    height: 354px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services-info > div {
+    margin: 30px auto;
+}
+
+.services-info .title {
+    font-size: 50px;
+    color: #7b6cd5;
+}
+
+.services-info .note {
+    font-size: 18px;
+    color: #707273;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.services-info .tab-list {
+    position: relative;
+}
+.services-info .tab-list a {
+    display: inline-block;
+    line-height: 40px;
+    width: 172px;
+    height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 20px 20px;
+    color: #3c3b4b;
+}
+
+/*重点：椭圆背景*/
+.services-info .tab-list a:hover {
+    width: 172px;
+    height: 40px;
+    border-radius: 30px;
+    background: #7b6cd5;
+    transition: all 0.2s;
+}
+
+/*椭圆下三角*/
+.services-info .tab-list a:hover:before {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    content: "";
+    border-style: solid;
+    border-color: #7b6cd5 transparent transparent transparent;
+    border-width: 10px;
+}
+
+/*三角下亮原点*/
+.services-info .tab-list a:hover:after {
+    position: absolute;
+    top: 58px;
+    left: 82px;
+    z-index: 1;
+    content: "";
+    /*再去掉内部宽高*/
+    width: 16px;
+    height: 16px;
+    background: #7b6cd5;
+    border-width: 10px;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+/*灰色圆点*/
+.services-info .tab-list a:after {
+    position: absolute;
+    top: 61px;
+    left: 85px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #e7e5f4;
+    border-width: 10px;
+    border-radius: 50%;
+}
+
+/*灰色原点中间线*/
+.services-info .tab-list .tab-line {
+    position: absolute;
+    top: 85px;
+    left: 534px;
+    width: 865px;
+    display: inline-block;
+    border: 1px solid #e7e5f4;
+}
+
+/*content 内容*/
+.content {
+    position: relative;
+    top: 0px;
+}
+
+/*container1容器*/
+.content .container1 {
+    overflow: hidden;
+    width: 100%;
+    height: 547px;
+    background: #f2f0fb;
+}
+
+.content .container1 > div {
+    margin: 70px auto;
+    vertical-align: middle;
+    width: 1170px;
+    overflow: hidden;
+}
+
+.content .container1 .pic_description {
+    width: 570px;
+    height: 380px;
+    margin-left: 30px;
+}
+
+.content .container1 h3 {
+    color: #7b6cd5;
+    font-size: 24px;
+}
+
+.content .container1 p {
+    color: #8a8b8e;
+    font-size: 18px;
+}
+
+/*给最高权重选中所有图片让其垂直居中*/
+.content ul  img{
+    vertical-align: middle;!important;
+}
+.content .container1 ul {
+    list-style: none;
+}
+
+.content .container1 ul li {
+    width: 575px;
+    height: 50px;
+    margin: 10px auto;
+    padding-left: 10px;
+    background: #ffffff;
+    line-height: 50px;
+    font-size: 17px;
+    color: #8a8b8e;
+}
+
+.content .container1 .price span:nth-child(1) {
+    color: #7b6cd5;
+    font-size: 36px;
+}
+
+.content .container1 .price span:nth-child(2) {
+    /*行元素要设置display: inline-block;才有宽高*/
+    display: inline-block;
+    width: 173px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+    background: #ea8fca;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+/*container2容器*/
+.content .container2 {
+    overflow: hidden;
+    width: 100%;
+    height: 547px;
+}
+
+.content .container2 > div {
+    margin: 70px auto;
+    vertical-align: middle;
+    width: 1170px;
+    overflow: hidden;
+}
+
+.content .container2 .pic_description {
+    width: 570px;
+    height: 380px;
+    margin-right: 30px;
+}
+
+.content .container2 h3 {
+    color: #7b6cd5;
+    font-size: 24px;
+}
+
+.content .container2 p {
+    color: #8a8b8e;
+    font-size: 18px;
+}
+
+.content .container2 ul {
+    list-style: none;
+}
+
+.content .container2 ul li {
+    width: 575px;
+    height: 50px;
+    margin: 10px auto;
+    padding-left: 10px;:;
+    background: #f2f0fb;
+    line-height: 50px;
+    font-size: 17px;
+    color: #8a8b8e;
+}
+
+.content .container2 .price span:nth-child(1) {
+    color: #7b6cd5;
+    font-size: 36px;
+}
+
+.content .container2 .price span:nth-child(2) {
+    /*行元素要设置display: inline-block;才有宽高*/
+    display: inline-block;
+    width: 173px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+    background: #ea8fca;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.content.buy-now{
+    display: inline-block;
+    text-decoration: none;
+    overflow: hidden;
+    border: 1px solid red;
+    width: 100%;
+    height: 541px;
+    background: black;
+}
+
+/*container3容器*/
+.content .container3 {
+    overflow: hidden;
+    width: 100%;
+    height: 547px;
+    background: #f2f0fb;
+}
+
+.content .container3 > div {
+    margin: 70px auto;
+    vertical-align: middle;
+    width: 1170px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+.content .container3 .pic_description {
+    width: 570px;
+    height: 380px;
+    margin-left: 30px;
+}
+
+.content .container3 h3 {
+    color: #7b6cd5;
+    font-size: 24px;
+}
+
+.content .container3 p {
+    color: #8a8b8e;
+    font-size: 18px;
+}
+
+.content .container3 ul {
+    list-style: none;
+}
+
+.content .container3 ul li {
+    width: 575px;
+    height: 50px;
+    margin: 10px auto;
+    padding-left: 10px;:;
+    background: #ffffff;
+    line-height: 50px;
+    font-size: 17px;
+    color: #8a8b8e;
+}
+
+.content .container3 .price span:nth-child(1) {
+    color: #7b6cd5;
+    font-size: 36px;
+}
+
+.content .container3 .price span:nth-child(2) {
+    /*行元素要设置display: inline-block;才有宽高*/
+    display: inline-block;
+    width: 173px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+    background: #ea8fca;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+/*container4*/
+.content .container4 {
+    overflow: hidden;
+    width: 100%;
+    height: 547px;
+}
+
+.content .container4 > div {
+    margin: 70px auto;
+    vertical-align: middle;
+    width: 1170px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+.content .container4 .pic_description {
+    width: 570px;
+    height: 380px;
+    margin-right: 30px;
+    /*margin-top: -0px;*/
+}
+
+.content .container4 h3 {
+    color: #7b6cd5;
+    font-size: 24px;
+}
+
+.content .container4 p {
+    color: #8a8b8e;
+    font-size: 18px;
+}
+
+.content .container4 ul {
+    list-style: none;
+}
+
+.content .container4 ul li {
+    width: 575px;
+    height: 50px;
+    margin: 10px auto;
+    padding-left: 10px;
+    background: #f2f0fb;
+    line-height: 50px;
+    font-size: 17px;
+    color: #8a8b8e;
+}
+
+
+.content .container4 .price span:nth-child(1) {
+    color: #7b6cd5;
+    font-size: 36px;
+}
+
+.content .container4 .price span:nth-child(2) {
+    /*行元素要设置display: inline-block;才有宽高*/
+    display: inline-block;
+    width: 173px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+    background: #ea8fca;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.content .container5 {
+    overflow: hidden;
+    height: 552px;
+    background: #f2f0fb;
+}
+
+.content .container5 > div {
+    text-align: center;
+}
+
+.content .container5 .cards-description {
+    width: 1070px;
+    margin: 30px auto;
+}
+
+.content .container5 .cards-description h2 {
+    font-size: 50px;
+    color: #7b6cd5;
+    margin: 10px auto;
+}
+
+.content .container5 .cards-description p {
+    font-size: 15px;
+    color: #707273;
+    line-height: 30px;
+}
+
+.content .container5 .cards {
+    list-style: none;
+    width: 1170px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.content .container5 ul li:nth-child(1) {
+    float: left;
+    width: 360px;
+    height: 195px;
+    background: #7b6cd5;
+}
+
+.content .container5 ul li:nth-child(2) {
+    float: left;
+    width: 360px;
+    height: 195px;
+    margin: 0 20px;
+    background: #9359c8;
+}
+
+.content .container5 ul li:nth-child(3) {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 360px;
+    height: 195px;
+    background: #ab46bc;
+}
+
+/*GIFT VOUCHER*/
+.content .container5 .cards li:before {
+    position: absolute;
+    content: "GIFT VOUCHER";
+    text-align: left;
+    color: #ffffff;
+    font-size: 28px;
+    width: 130px;
+    height: 89px;
+    margin-left: 188px;
+    margin-top: 20px;
+}
+
+/*卡价格*/
+.content .container5 .cards span {
+    position: absolute;
+    margin-top: 112px;
+    margin-left: -182px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+/*礼物券的BEST(上面的第三个里要设置溢出隐藏，否则不会隐藏多出的长方形部分)*/
+.content .container5 .cards > li:nth-child(3):after {
+    content: "BEST";
+    position: absolute;
+    color: #7b6cd5;
+    font-weight: bold;
+    top: 11px;
+    left: -40px;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    background: #ffffff;
+    transform: rotate(-45deg);
+}
+
+.content .emai {
+    /*子父容器外边距重合*/
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    background: #ea8fca;
+    text-align: center;
+}
+
+.content .emai p {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 10px auto;
+}
+
+.content .emai > div {
+    margin: 40px auto;
+}
+
+.content .emai input[type="text"] {
+    width: 530px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.content .emai a {
+    position: absolute;
+    top: 110px;
+    left: 1170px;
+}

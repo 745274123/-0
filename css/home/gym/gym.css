@@ -1,0 +1,297 @@
+
+
+.aboutGym{
+	background-color: #f2f0fb;
+}
+.aboutGym .subContent-main{
+	overflow: hidden;
+}
+.aboutGym .aboutGym-info{
+	width: 520px;
+}
+.aboutGym-info .aboutGym-info-item{
+	margin-top: 30px;
+	width: 220px;
+}
+.aboutGym-info .aboutGym-info-item,.extra-sperator{
+	float: left;
+}
+.aboutGym .extra-sperator{
+	margin-top: 75px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.aboutGym-info .aboutGym-info-item .title{
+	margin-top: 16px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	line-height: 1em;
+}
+.aboutGym-info .aboutGym-info-item .{
+	line-height: 1.5em;
+}
+.ourGym{
+	padding-bottom: 0;
+}
+.ourGym-tab-list{
+	height: 100px;
+}
+.ourGym-hr{
+	width: 645px;
+}
+.ourGym-tab{
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.ourGym-list .ourGym-item{
+	float: left;
+}
+.ourGym-list .ourGym-item:not(:first-child){
+	margin-left: 30px;
+}
+
+.whyChoose .tab-list,.whyChoose-content{
+	margin-top: -20px;
+}
+.whyChoose .tab-list{
+	float: left;
+	width: 770px;
+}
+.whyChoose .tab-item{
+	float: left;
+	width: 370px;
+	height: 120px;
+	margin-top: 20px;
+	background-color: #f6f4fc;
+	cursor: pointer;
+	transition: background-color .2s;
+}
+.whyChoose .tab-item .tab-info{
+	float: left;
+	width: 270px;
+	height: 120px;
+	text-align: left;
+}
+.whyChoose .tab-item .tab-title,.whyChoose-content-title{
+	color: #7d6cd5;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 20px;
+}
+.whyChoose .tab-item .tab-title,.whyChoose-content-title{
+	margin-top: 30px;
+}
+.whyChoose-content-title{
+	margin-top: 20px;
+}
+.whyChoose .tab-item .tab-title{
+	margin-top: 30px;
+}
+.whyChoose .tab-item .tab-abstract{
+	color: #777;
+}
+.whyChoose .tab-item::before{
+	display: block;
+	float: left;
+	content: "";
+	width: 100px;
+	height: 120px;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: background-image .2s;
+}
+.whyChoose .tab-item.current,.whyChoose .tab-item:hover{
+	background-color: #7d6cd5;
+}
+.whyChoose .tab-item.current .tab-title,.whyChoose .tab-item:hover .tab-title,.whyChoose .tab-item.current .tab-abstract,.whyChoose .tab-item:hover .tab-abstract{
+	color: #fff;
+}
+.whyChoose .tab-item1::before{
+	background-image: url(../../../img/home/gym/why_choose1_purple.png);
+}
+.whyChoose .tab-item2::before{
+	background-image: url(../../../img/home/gym/why_choose2_purple.png);
+}
+.whyChoose .tab-item3::before{
+	background-image: url(../../../img/home/gym/why_choose3_purple.png);
+}
+.whyChoose .tab-item4::before{
+	background-image: url(../../../img/home/gym/why_choose4_purple.png);
+}
+.whyChoose .tab-item5::before{
+	background-image: url(../../../img/home/gym/why_choose5_purple.png);
+}
+.whyChoose .tab-item6::before{
+	background-image: url(../../../img/home/gym/why_choose6_purple.png);
+}
+
+.whyChoose .tab-item1.current::before,.whyChoose .tab-item1:hover::before{
+	background-image: url(../../../img/home/gym/why_choose1.png);
+}
+.whyChoose .tab-item2.current::before,.whyChoose .tab-item2:hover::before{
+	background-image: url(../../../img/home/gym/why_choose2.png);
+}
+.whyChoose .tab-item3.current::before,.whyChoose .tab-item3:hover::before{
+	background-image: url(../../../img/home/gym/why_choose3.png);
+}
+.whyChoose .tab-item4.current::before,.whyChoose .tab-item4:hover::before{
+	background-image: url(../../../img/home/gym/why_choose4.png);
+}
+.whyChoose .tab-item5.current::before,.whyChoose .tab-item5:hover::before{
+	background-image: url(../../../img/home/gym/why_choose5.png);
+}
+.whyChoose .tab-item6.current::before,.whyChoose .tab-item6:hover::before{
+	background-image: url(../../../img/home/gym/why_choose6.png);
+}
+.whyChoose .tab-item:nth-child(2n){
+	margin-left: 30px;
+}
+
+.whyChoose-content{
+	position: relative;
+	width: 370px;
+	text-align: left;
+}
+.whyChoose-content-item{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.whyChoose-content-item:not(:first-child){
+	display: none;
+}
+.whyChoose-subItem{
+	line-height: 40px;
+	margin-bottom: 10px;
+}
+.whyChoose-subItem:not(:last-child){
+	border-bottom: 1px solid #eee;
+}
+.whyChoose-subItem:before{
+	display: inline-block;
+	content: "";
+	width: 22px;
+	height: 15px;
+	margin-right: 8px;
+	background-image: url(../../../img/public/icon_bingo.png);
+}
+
+
+.spread2{
+	height: 531px;
+}
+.spread2 .spread-info{
+	width: 670px;	
+	margin-top:170px;
+	margin-right: 35px;
+}
+.spread2 .spread-info .title{
+	font-size: 40px;
+}
+.spread2 img{
+	left: 400px;
+	top: -52px
+}
+
+.upcomingEvent{
+	padding-top: 50px;
+	padding-bottom: 0;
+}
+.upcomingEvent .subContent-main{
+	height: 724px;
+	background-color: #e9e5f6;
+	background-image: url(../../../img/home/gym/upcoming_event_bg.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+}
+.upcomingEvent-list{
+	margin-left: 945px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.upcomingEvent-item{
+	float: left;
+	width: 370px;
+	height: 316px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	background-color: #fff;
+}
+.upcomingEvent-link{
+	display: inline-block;
+    width: 370px;
+    height: 316px;
+}
+
+.upcomingEvent-info{
+	padding-left: 30px;
+	padding-top: 20px;
+	text-align: left;
+	overflow: hidden;
+}
+.upcomingEvent-pushTime{
+	color: #EA8FCA;
+	font-size: 14px;
+	font-weight: bold;
+}
+.upcomingEvent-title{
+	margin-top: 5px;
+	color: #6e65ad;
+	font-size: 20px;
+	line-height: 40px;
+	font-family: Poppins;
+	font-weight: 500;
+}
+
+.upcomingEvent-time-addr{
+	height: 20px;
+	color: #777;
+}
+.upcomingEvent-addr{
+	margin-left: 1em;
+}
+
+
+.callOut2{
+	background-image: url(../../../img/home/gym/spread3_bg.png);
+}
+
+.onlineStore{
+	background-color: #f2f0fb;
+}
+.onlineStore-list .onlineStore-item{
+	float: left;
+	width: 370px;
+	height: 622px;
+	text-align: center;
+	background-color: #fff;
+}
+.onlineStore-list .onlineStore-item:not(:first-child){
+	margin-left: 30px;
+}
+
+.onlineStore-list .onlineStore-item .onlineStore-name{
+	margin-top: 0.5em;
+	line-height: 50px;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 22px;
+}
+.onlineStore-list .onlineStore-item .{
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 1.6em;
+	overflow: hidden;
+}
+
+.onlineStore-list .onlineStore-item .price{
+	margin-bottom: 1em;
+	font-size: 22px;
+}
+
+.ourClientsSay{
+	background-image: url(../../../img/home/gym/our_client_say_bg.png);
+}
+

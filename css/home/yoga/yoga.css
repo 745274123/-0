@@ -1,0 +1,244 @@
+
+ /*内容样式 */
+
+.yogaLife{
+	background: url(../../../img/home/yoga/Yoga_us_way_of_life_bg.png) no-repeat;
+	background-size: 100%;
+	height: 988px;
+}
+.yogaLife-info>div{
+	margin-top: 60px;
+	margin-bottom: 90px;
+	overflow: hidden;
+}
+.yogaLife-info.fl>div>div{
+	float: left;
+	text-align: right;
+}
+.yogaLife-info.fr>div>div{
+	float: right;
+	text-align: left;
+}
+.yogaLife-info.fl .yogaLife-info-icon{
+	margin-left: 18px;
+}
+.yogaLife-info.fr .yogaLife-info-icon{
+	margin-right: 18px;
+}
+.yogaLife-info .yogaLife-info-main p{
+	width: 280px;
+}
+.yogaLife-info .yogaLife-info-main h4{
+	font-size: 22px;
+	margin-bottom: .4em;
+}
+
+/*  */
+.ourClass-list .ourClass-item{
+	float: left;
+	width: 370px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	text-align: center;
+	background: #f2f0fb;
+}
+.ourClass-list .ourClass-item:first-child{
+	margin-left: 0px;
+}
+.ourClass-list .ourClass-item .ourClass-link{
+	display: block;
+	position: relative;
+	z-index: 2;
+	width: 370px;
+	height: 370px;
+}
+.ourClass-list .ourClass-item .ourClass-link:hover .learnMore{
+	z-index: 1;
+	color: rgba(255,255,255,1);
+	background: rgba(125,114,196,0.5);
+}
+.ourClass-list .ourClass-item .ourClass-link .learnMore{
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 370px;
+	height: 370px;
+	line-height: 370px;
+	color: rgba(255,255,255,0);
+	background: rgba(125,114,196,0);
+	transition:  z-index .2s,color .2s,background-color .2s;
+	-webkit-transition:  z-index .2s,color .2s,background-color .2s;	
+	-moz-transition:  z-index .2s,color .2s,background-color .2s;	
+	-ms-transition:  z-index .2s,color .2s,background-color .2s;
+}
+.ourClass-list .ourClass-item .ourClass-link .learnMore .learnMore-text{
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	border-radius: 23px;
+	-moz-border-radius: 23px;	
+    -webkit-border-radius: 23px;
+	border: 3px solid;
+}
+.ourClass-list .ourClass-item .ourClass-name{
+	margin-top: 0.5em;
+	line-height: 50px;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 22px;
+}
+.ourClass-list .ourClass-item .abstract{
+	padding-left: 40px;
+	padding-right: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+.ourClass .week{
+	display: inline-block;
+	width: 46px;
+	height: 25px;
+	margin-left: 5px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 27px;
+	border-radius: 14px;
+	background-color: #7B6CD5;
+}
+.ourClass .week:first-child{
+	margin-left: 0px;
+}
+
+.ourClass-info a.protrait-icon,.ourClass-info p{
+	margin-bottom: 10px;
+}
+
+
+.ourClass-bookClass-btn{
+	margin-top: 50px;
+}
+
+
+
+.ourClientsSay{
+	background: url(../../../img/home/yoga/our_clients_say_bg.png);
+}
+
+
+.upcomingEvent{
+	background: url(../../../img/home/yoga/upcoming_event_bg.png);
+	background-size: 100%;
+}
+.upcomingEvent-list{
+	margin-bottom: 5px;
+}
+.upcomingEvent-item{
+	width: 585px;
+	height: 180px;
+	background-color: #fff;
+}
+
+.upcomingEvent-link{
+	display: inline-block;
+	width: 585px;
+    height: 180px;
+}
+.upcomingEvent-item:not(:first-child){
+	margin-top: 20px;
+}
+.upcomingEvent-info{
+	float: left;
+	width: 315px;
+	height: 160px;
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: left;
+}
+.upcomingEvent-pushTime{
+	color: #EA8FCA;
+	font-size: 14px;
+	font-weight: bold;
+}
+.upcomingEvent-title{
+	margin-top: 5px;
+	color: #6e65ad;
+	font-size: 20px;
+	font-family: Poppins;
+	font-weight: 500;
+}	
+.upcomingEvent-time-addr{
+	margin-top: 20px;
+	line-height: 20px;
+	height: 20px;
+	color: #777;
+}
+.upcomingEvent-addr{
+	margin-left: 1em;
+}
+
+
+
+.spread2{
+	height: 531px;
+	background: url(../../../img/home/yoga/improve_your_life_bg.png);
+}
+.spread2 .spread-info{
+	margin-top:170px;
+	width: 460px;
+}
+.spread2 img{
+	right: 200px;
+	top: -52px
+}
+
+.gifts-cards {
+	padding-top: 100px;
+	background-color: #f2f0fb;
+}
+
+
+.instagramFeed .instagramFeed-list .instagramFeed-item{
+	float: left;
+	position: relative;
+	width: 370px;
+	height: 370px;
+	overflow: hidden;
+	background-size: 370px 370px;
+	background-position: center;
+	transition: background 0.2s;
+	-webkit-transition: background 0.2s;	
+	-moz-transition: background 0.2s;	
+	-ms-transition: background 0.2s;
+}
+
+.instagramFeed .instagramFeed-list .instagramFeed-item::after{
+	display: block;
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 370px;
+	height: 370px;
+	background-color: rgba(125,114,196,0.5);
+}
+.instagramFeed .instagramFeed-list .instagramFeed-item .instagramFeed-link{
+	display: block;
+	position: relative;
+	z-index: 5;
+	width: 370px;
+	height: 370px;
+}
+.instagramFeed .instagramFeed-list .instagramFeed-item:not(:first-child){
+	margin-left: 30px;
+}
+.instagramFeed .instagramFeed-list .instagramFeed-item:hover{
+	background-size: 400px 400px;
+}
+.instagramFeed .instagramFeed-list .instagramFeed-item:hover::after{
+	top:0;
+}
+

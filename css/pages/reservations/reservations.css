@@ -1,0 +1,204 @@
+/*隐藏水平滚动条*/
+body{
+    overflow-x: hidden;
+}
+
+ul,ol{
+    list-style: none;
+}
+.content {
+    position: relative;
+    top: 0px;
+}
+
+.info {
+    height: 210px;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.info > div {
+    margin: 30px auto;
+}
+
+.info .title {
+    font-family: Poppins-Medium;
+    font-size: 50px;
+    color: #7b6cd5;
+}
+
+.info .note {
+   font-family: pt-sans-bold;
+    font-size: 18px;
+    color: #707273;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*瑜伽图片*/
+.content .pic {
+    margin-top: 30px;
+}
+
+.content .pic ul {
+    list-style: none;
+    text-align: center;
+}
+
+.content .pic ul li {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.content .pic ul li .select {
+    overflow: hidden;
+    margin-top: -6px;
+    width: 370px;
+    height: 150px;
+    background: #f2f0fb;
+}
+
+.content .pic ul li .select p {
+    margin-top: 27px;
+    font-family: Poppins;
+    font-size: 20px;
+    color: #7b6cd5;
+}
+
+.content .pic ul li .select select {
+    width: 330px;
+    height: 50px;
+    border: 1px solid #b6aee8;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: PTSans;
+    font-size: 18px;
+    color: #707273;
+    padding-left: 30px;
+}
+
+.content .pic .btn-send {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.content .pic .btn-send span {
+    display: inline-block;
+    width: 312px;
+    height: 60px;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Myriad Pro Regular";
+    background: #ea8fca;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.content .pic .btn-send span:hover {
+    background:#7b6cd5 ;
+}
+
+/*轮播图处*/
+.content .banner {
+    position: relative;
+    width: 100%;
+    height: 674px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.banner-bg{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.popular-list{
+    position: relative;
+    margin: 200px auto 0px;
+    height:371px;
+    width: 1570px;
+
+}
+.popular-list .carousel-list{
+    position: relative;
+    overflow: hidden;
+}
+.popular-list .carousel-list>li{
+    float: left;
+}
+.banner-btn-prev,.banner-btn-next{
+    position: absolute;
+    top:50%;
+    margin-top: -35px;
+}
+.banner-btn-prev{
+    left:0px;
+}
+.banner-btn-next{
+    right:0px;
+}
+
+.content .banner-content .note {
+    float: right;
+    margin-left: 28px;
+}
+
+.content .banner-content h4 {
+    font-family: Poppins-Medium;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.content .banner-content ul {
+    display: inline-block;
+    margin: 10px auto;
+    list-style: none;
+}
+
+.content .banner-content ul li {
+    width: 570px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+    background: #a396d6;
+    font-family: "PTSans Regular";
+    font-size: 18px;
+    color: #ffffff;
+}
+.content .banner-content ul li img{
+    vertical-align: middle;
+}
+
+/*价格*/
+.content .price span:nth-child(1) {
+    color: #7b6cd5;
+    font-size: 36px;
+}
+.content .price span:nth-child(2) {
+    /*行元素要设置display: inline-block;才有宽高*/
+    display: inline-block;
+    width: 173px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+    background: #ea8fca;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+.content .price span:nth-child(2):hover{
+   background: #7b6cd5;
+}
+
+.content .banner-btn div{
+    position: absolute;
+    top: 50%;
+}
+.content .banner-btn-prev{
+    cursor: pointer;
+}
+.content .banner-btn-next{
+    cursor: pointer;
+}

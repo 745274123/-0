@@ -1,0 +1,376 @@
+.container{
+	text-align: left;
+}
+#top-banner{
+    background:url("../../../img/pages/aboutUs/topbackground.png") no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+}
+#top-banner ul li p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+#top-banner ul li .tittle{
+    font-size: 72px;
+    margin-top: 195px;
+    font-family:"Poppins";
+}
+
+/*中心内容部分*/
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+/*welcome to aasana*/
+.welcome{
+    width: 1170px;
+    margin: 0 auto;
+    background: url("../../../img/pages/aboutUs/About-Us_02.png") no-repeat;
+    overflow: hidden;
+}
+.welcome .title{
+    width: 1170px;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 120px;
+    text-align: center;
+    color: #7b6cd5;
+}
+.welcome .info{
+    width: 1170px;
+    font-family: PTSans;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    color: #707273;
+}
+.welcome .healthy{
+    margin: 40px auto;
+    overflow: hidden;
+}
+.welcome .healthy .benefit{
+    width: 230px;
+    height: 260px;
+    margin: 20px;
+    text-align: center;
+    float: left;
+}
+.welcome .healthy .pic{
+    width: 30px;
+    margin-top:80px;
+    float: left;
+}
+.welcome .healthy .benefit .heal-title{
+    font-family: PTSans;
+    font-size: 22px;
+    margin-top: 18px;
+    color: #7b6cd5;
+}
+.welcome .healthy .benefit .heal-info{
+    font-family: PTSans;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: #707273;
+}
+.welcome .welcome-get{
+    width: 270px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #ea8fca;
+    margin: 0 auto;
+    font-family: PTSans;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+.welcome a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*百分比统计部分*/
+.statistic{
+    width: 100%;
+    height: 660px;
+    position: relative;
+    background: url("../../../img/pages/aboutUs/About-Us_03.png") no-repeat;
+}
+.progress.white .progress-progress{
+    background-color: #ea8fca;
+}
+.progress.white .progress-counter,.progress.white .progress-bar{
+    color: #fff;
+}
+.progress-list{
+    width:500px;
+    position: absolute;
+    top: 170px;
+    left: 370px;
+}
+.progress-list .progress{
+    margin-bottom: 20px;
+}
+/*what we do*/
+.activity{
+    width: 1170px;
+    margin: 0 auto;
+}
+.activity .pic{
+    width: 121px;
+    height: 62px;
+    margin: 50px auto 0px;
+}
+.activity .act-title{
+    font-family: Poppins;
+    font-size: 50px;
+    text-align: center;
+    color: #7b6cd5;
+}
+.activity .act-info{
+    font-family: PTSans;
+    font-size: 18px;
+    text-align: center;
+    color: #707273;
+}
+.activity .main{
+    width: 1170px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.activity .main .left-pic{
+    width: 370px;
+    float: left;
+}
+.activity .main .left-pic ul li{
+    overflow: hidden;
+}
+.activity .main .left-pic ul li .left-picture{
+    width: 124px;
+    height: 120px;
+    margin-right: 20px;
+    float: left;
+}
+.activity .main .left-pic ul li .font .tit{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #a095e1;
+}
+.activity .main .left-pic ul li .font .introduce{
+    font-family: PTSans;
+    font-size: 16px;
+    color: #707273;
+}
+.activity .main .right-info{
+    width: 770px;
+    float: right;
+}
+.activity .main .right-info .right-title{
+    font-family: Poppins;
+    font-size: 20px;
+    color: #a095e1;
+}
+.activity .main .right-info .right-inf{
+    font-family: PTSans;
+    font-size: 16px;
+    color: #707273;
+}
+.activity .main .right-info ul li {
+    margin: 15px 0;
+    overflow: hidden;
+}
+.activity .main .right-info ul li .right-pic{
+    height: 40px;
+    line-height: 40px;
+    font-family: PTSans;
+    font-size: 16px;
+    color: #707273;
+    float: left;
+}
+.activity .main .right-info ul li .right-price{
+    width: 210px;
+    height: 42px;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 21px;
+    float: right;
+}
+.activity .main .right-info ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.activity .main .right-info ul li .first{
+    background-color: #7b6cd5;
+}
+.activity .main .right-info ul li .second{
+    background-color: #8f6bd2;
+}
+.activity .main .right-info ul li .third{
+    background-color: #a96bcd;
+}
+.activity .main .right-info ul li .fourth{
+    background-color: #bd6aca;
+}
+/*what we offer*/
+.offer{
+    width: 100%;
+    height: 864px;
+    background: url("../../../img/pages/aboutUs/weoffer_12.png");
+}
+.offer ul{
+    width: 1600px;
+    margin: 0px auto ;
+    overflow: hidden;
+}
+.offer ul li{
+    width: 370px;
+    margin: 215px 10px;
+    float: left;
+}
+.offer ul li .title{
+    font-family: Poppins;
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+.offer ul li .information{
+    font-family: PTSans;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+.offer ul li .try{
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 25px auto;
+    border-radius: 25px;
+    background-color: #ea8fca;
+}
+.offer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*instructor*/
+.container .instructorss{
+    width: 1170px;
+    margin: 50px auto 0;
+}
+.instructors-title{
+    width: 125px;
+    margin: 0 auto;
+}
+.container .team-info .tittle{
+    font-size: 34px;
+    font-weight:bold;
+    text-align: center;
+    color: #7b6cd5;
+
+}
+.container .team-info p{
+    font-size: 18px;
+    color: #707273;
+    text-align: center;
+    margin:20px;
+}
+.container .coach-info{
+    margin-top: 18px;
+    overflow: hidden;
+
+}
+.container .coach-info .coach{
+    width: 270px;
+    margin: 0 10px;
+    float: left;
+}
+
+.container .coach-info .coach .coach-img{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid #f3f1fb;
+}
+.container .coach-info .coach .coach-name{
+    color: #7b6cd5;
+    font-weight:600;
+    text-align: center;
+    margin: 5px auto;
+}
+.container .coach-info .coach  .coach-time{
+    font-size: 13px;
+    color: #707273;
+    text-align: center;
+}
+.container .coach-info .coach ul{
+    width: 165px;
+    margin: 25px auto;
+    overflow:hidden;
+}
+.container .coach-info .coach ul li{
+    margin: 0 5px;
+    float: left;
+}
+/**/
+.rectangle{
+    width: 100%;
+    height: 470px;
+    background:url("../../../img/pages/aboutUs/About-Us_26.png")no-repeat;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+.rectangle .shape{
+    margin: 0 auto;
+}
+.rectangle .shape01{
+    float: left;
+    text-align: center;
+    padding: 128px;
+    color: #ffffff;
+
+}
+.rectangle  .shape01 .shape-keyw{
+    font-size: 34px;
+}
+/**/
+.container .class-today{
+    width: 1170px;
+    margin: 0 auto;
+}
+.container .today-pic{
+    width: 125px;
+    margin: 0 auto;
+}
+.container .class-today tittle{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: bold;
+    color: #7b6cd5;
+}
+.container .class-today .today-info{
+    font-family: PTSans;
+    font-size: 18px;
+    text-align: center;
+}
+.container .class-today .date{
+    margin-top: 30px;
+    font-family: Poppins;
+    font-size: 24px;
+    text-align: center;
+    color: #9b90de;
+}
+/*脚部*/
+.footer{
+    margin-top: 100px;
+}

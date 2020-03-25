@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/public/Aasana_logo1.ico"/>
+    <script src="../../js/public/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="../../js/public/public.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="../../css/public/public.css">
+    <link rel="stylesheet" href="../../css/contacts/contacts.css">
+    <!--<link rel="stylesheet" href="../../css/public/public.css">-->
+</head>
+<body>
+
+<script src="../../js/public/header.js" type="text/javascript" charset="utf-8"></script>
+
+<!--轮播图-->
+<div class="services-banner">
+    <ul class="services-banner-list">
+        <li>
+            <a href="#"><img src="../../img/contacts/Contacts_01.png" height="500" width="1920"/></a>
+        </li>
+    </ul>
+</div>
+
+<!--主体部分-->
+<div class="content">
+    <img src="../../img/contacts/icon_01.png" height="63" width="121"/>
+    <div class="icon">
+        <div id="map"></div>
+    </div>
+
+    <div class="info">
+        <div class="content-details">
+            <h4>Contact Details</h4>
+            <p>Lorem ipsum dolor sit amet, duis metus ligula amet in purus, vitae donec vestibulum enim,
+                tincidunt massa sit, convallis ipsum.</p>
+            <ul>
+                <li><img src="../../img/contacts/Contacts_08.png"/> 785 Carriage Drive, Jacksonville <span>&nbsp;&nbsp;&nbsp;&nbsp;Beach, FL</span>
+                </li>
+                <li><img src="../../img/contacts/Contacts_11.png"/> 1-888-124-567899</li>
+                <li><img src="../../img/contacts/Contacts_13.png"/> info@your-site.com</li>
+                <li><img src="../../img/contacts/Contacts_13.png"/> sales@your-site.com</li>
+            </ul>
+        </div>
+        <div class="from">
+            <h4>Get in Touch</h4>
+            <form action="javascript:void(0)" method="post">
+                <input type="text" name="" placeholder="First Name *">
+                <input type="text" name="" placeholder="Last Name"/><br/>
+                <input type="text" name="" placeholder="Email *"/>
+                <input type="text" name="" placeholder="Phone"/><br/>
+                <textarea name="" rows="" cols=""
+                          placeholder="Notes about your order, e.g. spesial notes for delivery"></textarea><br/>
+                <input type="submit" name="" id="" value="Submit"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="../../js/public/footer_up2top.js" type="text/javascript" charset="utf-8"></script>
+
+
+<!--<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>-->
+<script type='text/javascript'>
+    function loadMapScenario() {
+        var map = new Microsoft.Maps.Map(document.getElementById('map'), {
+            center: new Microsoft.Maps.Location(41.0907918018, -73.9166539907),
+            mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+            zoom: 12
+        });
+
+        /*自定义图钉*/
+        var pushpin = new Microsoft.Maps.Pushpin(map.getCenter(), {
+            icon: '../../img/contacts/Contacts_04.png',
+            anchor: new Microsoft.Maps.Point(12, 39)
+        });
+        map.entities.push(pushpin);
+    }
+</script>
+
+<script type="text/javascript">
+    $(function () {
+        // 头部预处理
+        $(".header").addClass("absolute");
+        $(".header-logo-img").addClass("white");
+        $(".userBar-icon.cart .counter").addClass("bgColor-223c");
+        $(".header-nav-content").addClass("purple");
+        /*从首页跳到各页面*/
+        $(".item-contacts").addClass("current");
+
+        // 脚部处理
+        $(".footer .Aasana-logo-img-big").addClass("purple");
+        $(".footer form a.send").addClass("purple");
+        $(".footer-social a").eq(0).addClass("facebook-227c");
+        $(".footer-social a").eq(1).addClass("instagram-7677c");
+        $(".footer-social a").eq(2).addClass("youtube-5135c");
+        $(".footer-nav").addClass("purple");
+        // 置顶按钮处理
+        $(".up2top .up2top-icon").addClass("pink");
+
+
+        //导航条下拉效果
+        nav_slide("#header-nav");
+    })
+</script>
+
+<script
+        type='text/javascript'
+        src='https://cn.bing.com/api/maps/mapcontrol?key=ApF9WX25_LzA9HBXk-b4lJAsVgrfLxi4QMg9MdTKjtIQMsVYzH5MDmmdBTp1t1kc&callback=loadMapScenario'
+        async defer>
+</script>
+</body>
+</html>

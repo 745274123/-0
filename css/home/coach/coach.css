@@ -1,0 +1,412 @@
+.spread{
+	background: url(../../../img/home/coach/Personal_training_bg.png) no-repeat center bottom;
+	height: 988px;
+}
+.spread .subContent-main{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.spread-info>div{
+	margin-bottom: 90px;
+	overflow: hidden;
+}
+
+.spread-info.fl .spread-info-icon{
+	margin-left: 18px;
+}
+.spread-info.fr .spread-info-icon{
+	margin-right: 18px;
+}
+.spread-info .spread-info-main p{
+	width: 280px;
+}
+.spread-info .spread-info-main h4{
+	font-size: 22px;
+	margin-bottom: .4em;
+}
+
+.callOut .callOut-info{
+	margin-top: 96px;
+}
+.callOut{
+	height: 406px;
+	background-image: url(../../../img/home/coach/callOut_bg.png);
+	color: #fff;
+	font-family: Poppins;
+}
+.callOut .title{
+	line-height: 1em;
+	font-size: 48px;
+	margin-bottom: 15px;
+}
+.callOut .callOut-abstract{
+	margin-bottom: 30px;
+	padding-left: 70px;
+	padding-right: 70px;
+	line-height: 1.6m;
+	font-size: 18px;
+	color: f2f0fb;
+}
+.callOut .a-btn{
+	width: 334px;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.workWithMe{
+	padding-bottom: 50px;
+}
+.workWithMe .subContent-main{
+	margin: 70px 0 0 95px;
+}
+.workWithMe-content{
+	width: 550px;
+	padding-right: 50px;
+	text-align: left;
+}
+.workWithMe-content-title{
+	font-size: 50px;
+}
+.workWithMe-list{
+	padding-left: 50px;
+}
+.workWithMe-item{
+	position: relative;
+	margin-bottom: 10px;
+}
+.workWithMe-item-title::before{
+	display: block;
+	position: absolute;
+	content: "";
+	width: 43px;
+	height: 43px;
+	left: -50px;
+	background-image: url(../../../img/home/coach/minus_icon.png);
+}
+.workWithMe-item.current .workWithMe-item-title::before{
+	background-image: url(../../../img/home/coach/add_icon.png);
+}
+.workWithMe-content .workWithMe-item-title{
+	font-size: 18px;
+	line-height: 43px;
+	cursor: pointer;
+}
+.workWithMe-content .info{
+	display: none;
+	color: #777;
+}
+
+.NutritionPlan{
+	height: 646px;
+	background-image: url(../../../img/home/coach/nutrition_plan_bg.png)
+}
+.NutritionPlan .NutritionPlan-content{
+	width: 515px;
+	margin-left: 155px;
+	margin-top: 100px;
+	text-align: right;
+}
+.NutritionPlan .NutritionPlan-content .title{
+	margin-bottom: 15px;
+	font-size: 50px;
+	line-height: 1em;
+}
+.NutritionPlan .NutritionPlan-content p{
+	margin-bottom: 30px;
+	font-size: 18px;
+	line-height: 1.6em;
+}
+
+.benefits{
+	height: 807px;
+	background-image: url(../../../img/home/coach/benefits_bg.png.png);
+}
+.benefits-content{
+	height: 563px;
+	background-color: rgba(65,78,86,.8);
+}
+.benefits-list{
+	margin-top: 140px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.benefits-list .benefits-item{
+	float: left;
+	width: 410px;
+	color: #fff;
+}
+.benefits-list .benefits-item:not(:first-child){
+	margin-left: 150px;
+}
+.benefits-list .benefits-item .title{
+	font-size: 30px;
+	line-height: 2em;
+}
+.benefits-list .benefits-item .info{
+	font-size: 20px;
+	line-height: 1.4em;
+}
+
+.getTheGift{
+	padding-top: 50px;
+	height: 194px;
+	background-color: rgba(254,100,104,.8);
+}
+.getTheGift .title{
+	font-size: 48px;
+	color: #fff;
+}
+
+.trainerTips{
+	position: relative;
+	overflow: hidden;
+}
+.trainerTips-list{
+	position: relative;
+	height: 480px;
+}
+.trainerTips-item{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.trainerTips-item:not(:first-child){
+	display: none;
+}
+.trainerTips-item .tips1{
+	position: absolute;
+	top: 15px;
+	left: 47%;
+}
+.tips-icon{
+	width: 66px;
+	height: 66px;
+	vertical-align: top;
+	background-image: url(../../../img/home/coach/add_icon_big.png);
+	background-size: 66px;
+}
+.tips-icon:hover{
+	background-image: url(../../../img/home/coach/minus_icon_big.png);
+}
+.tips-icon:hover+.tips-content{
+	display: inline-block;
+}
+.trainerTips-item .tips-content{
+	position: relative;
+	display: none;
+	width: 400px;
+	padding: 25px 30px;
+	margin-left: 20px;
+	text-align: left;
+	background-color: #f1f1f2;
+}
+.trainerTips-item .tips-content::before{
+	display: block;
+	position: absolute;
+	content: "";
+	top: 0;
+	left: -14px;
+	width: 14px;
+	height: 14px;
+	background-image: linear-gradient(to bottom left,#f1f1f2 50%,transparent 50%);
+}
+.trainerTips-item .tips-content .tips-title{
+	font-size: 22px;
+}
+.trainerTips-item .tips-content .tips-info{
+	color: #777;
+}
+
+.count-list .count-item{
+	border: 3px solid rgba(254,100,104,0.5);
+}
+.count-list .count-item:hover,.count-list .count-item.current{
+	background-color: rgba(254,100,104,1);
+	border: 3px solid rgba(254,100,104,1);
+}
+
+.trainingOption{
+	height: 608px;
+	color: #fff;
+	background-image: url(../../../img/home/coach/training_options_bg.png);
+}
+.trainingOption .trainingOption-title{
+	margin-bottom: 30px;
+	margin-top: 70px;
+	font-size: 48px;
+}
+.trainingOption-content{
+	height: 563px;
+	background-color: rgba(65,78,86,.8);
+}
+.trainingOption-list{
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.trainingOption-list .trainingOption-item{
+	float: left;
+	width: 185px;
+}
+.trainingOption-list .trainingOption-item:not(:first-child){
+	margin-left: 130px;
+}
+.trainingOption-list .trainingOption-item .title{
+	margin-top: 15px;
+	font-size: 34px;
+}
+.trainingOption-list .trainingOption-item .info{
+	font-weight: bold;
+	font-size: 20px;
+}
+.trainingOption a.a-btn.normal{
+	width: 330px;
+}
+
+.lostWeight{
+	height: 695px;
+}
+.lostWeight-list{
+	position: relative;
+	height: 565px;
+}
+.lostWeight-item{
+	position: absolute;
+	height: 565px;
+	padding-left: 585px;
+}
+.lostWeight-item:not(:first-child){
+	display: none;
+}
+.lostWeight-item .lostWeight-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.lostWeight-item .lostWeight-content{
+	width: 600px;
+	margin-top: 145px;
+	text-align: left;
+}
+.lostWeight-item  .lostWeight-content h4{
+	font-size: 48px;
+	line-height: 1em;
+}
+.lostWeight-item  .lostWeight-content p{
+	margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+.lostWeight-item  .lostWeight-content .name{
+	font-weight: bold;
+}
+
+.practiceSession{
+}
+.practiceSession-item{
+	float: left;
+	width: 370px;
+}
+.practiceSession-link{
+	display: block;
+	width: 370px;
+	
+}
+.practiceSession-item:not(:first-child){
+	margin-left: 30px;
+}
+.practiceSession-item .title{
+	margin-top: 15px;
+	font-size: 22px;
+}
+.practiceSession-item .info{
+	color: #777;
+	line-height: 1.6em;
+}
+
+.workWithU{
+	background-image: url(../../../img/home/coach/work_with_you_bg.png);
+	background-size: cover;
+}
+.workWithU .abstract{
+	color: #fff;
+}
+.workWithU-table{
+	border: none;
+}
+.workWithU-table tr{
+	height: 50px;
+}
+.workWithU-table tr:not(:first-child) th,.workWithU-table tr:not(:first-child) td{
+	border-top: 1px solid #666;
+}
+.workWithU-table tr th{
+	width: 200px;
+	color: #fff;
+	background-color: #fe6468;
+}
+.workWithU-table tr td{
+	color: #707273;
+	width: 370px;
+}
+.workWithU-table tr:nth-child(even) td{
+	background-color: #fff;
+}
+.workWithU-table tr:nth-child(odd) td{
+	background-color: #f7f6fb;
+}
+.workWithU .progress-list{
+	width: 500px;
+}
+.workWithU .progress-list .progress{
+	margin-bottom: 20px;
+}
+
+.pricesList-item:nth-child(odd) .pricesList-title,.pricesList-item:nth-child(even) .purchase a{
+	background-color: rgba(254,100,104,1);
+}
+.pricesList-item:nth-child(odd) .purchase a,.pricesList-item:nth-child(even) .pricesList-title{
+	background-color: rgba(70,76,71,1);
+}
+.pricesList-item:nth-child(odd) .price{
+	background-color: rgba(70,76,71,.8);
+}
+.pricesList-item:nth-child(even) .price{
+	background-color: rgba(254,100,104,.8);
+}
+
+.consultation{
+	background-image: url(../../../img/home/coach/consultation_bg.png);
+	background-size: cover;
+}
+.consultation .subContent-title,.consultation .subContent-top .abstract{
+	color: #fff;
+}
+.consultation-form {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.consultation-form input{
+	width: 430px;
+	height: 20px;
+	border: none;
+	outline: none;
+	background-color: #fff;
+}
+.consultation-form .email{
+	margin-left: 30px;
+}
+.consultation-form .writeMe{
+	width: 930px;
+	height: 60px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	outline: none;
+	font-family: PTSans;
+}
+
+.consultation-form .writeMe,.consultation-form input{
+	border-radius: 25px;
+	padding: 15px 20px;
+	font-size: 18px;
+	color: #777;
+}

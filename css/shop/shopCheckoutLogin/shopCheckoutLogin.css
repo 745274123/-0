@@ -1,0 +1,42 @@
+.content .click .click-login p{
+    font-size: 18px;
+    color:#7a7b7c;
+    font-family:"PTSans";
+    padding: 4px 28px 25px;
+    background-color: #fff;
+}
+.content .click .click-login .login-info input{
+    width: 370px;
+    font-size: 18px;
+    padding: 11px 30px;
+    border: 1px solid #bdb5ea;
+    border-radius: 50px;
+    margin-right: 10px;
+    outline: none;
+}
+.content .click .click-login .login-info .login-btn{
+    width: 122px;
+    padding: 10px 30px;
+    color:#ffffff;
+    background-color: #ea8fca;
+    border:1px solid #EA8FCa;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.content .clck .click-login  .login-info input span{
+    position: relative;
+
+}
+.content .click  .click-login .login-info .remb{
+    color:#7a7b7c;
+}
+.content .click .click-login .login-info .check-remb{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #EA8FCa;
+}
+.content .click .click-login .login-info .lost{
+    margin-left:210px;
+    color: #7b6cd5;
+}

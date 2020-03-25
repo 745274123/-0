@@ -1,0 +1,209 @@
+body {
+    overflow-x: hidden;
+}
+
+.content {
+    position: relative;
+    top: 0px;
+    /*!important设置最高权重从而屏蔽public.css中样式*/
+    width: 1920px!important;
+}
+
+.info {
+    height: 210px;
+    text-align: center;
+}
+
+.info > div {
+    margin: 30px auto;
+}
+
+.info .title {
+    font-family: Poppins-Medium;
+    font-size: 50px;
+    color: #7b6cd5;
+}
+
+.info .note {
+    font-family: pt-sans-bold;
+    font-size: 18px;
+    color: #707273;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.content .pic {
+    position: relative;
+    margin: 50px auto;
+    width: 1190px;
+}
+
+.content .pic .title {
+    position: absolute;
+    top: -20px;
+    left: 13px;
+    list-style: none;
+}
+
+.content .pic .title > li {
+    width: 370px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "Myriad Pro Regular";
+    color: #ffffff;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.content .pic .title > li > h5 {
+    margin-left: 175px;
+}
+
+.content .pic .title > li:nth-child(1) {
+    margin-left: -2px;
+    background: #ea8fca;
+}
+
+.content .pic .title > li:nth-child(2) {
+    margin: 0px 22px;
+    background: #7b6cd5;
+}
+
+.content .pic .title > li:nth-child(3) {
+    background: #ea8fca;
+}
+
+/*价格*/
+.content .pic .price {
+    list-style: none;
+}
+
+.content .pic .price li {
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+    font-family: "Myriad Pro Regular";
+    color: #ffffff;
+    position: absolute;
+}
+
+.content .pic .price li > span:nth-child(1) {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 29px;
+}
+
+.content .pic .price li > span:nth-child(2) {
+    display: inline-block;
+    margin-left: 23px;
+    font-size: 14px;
+}
+
+/*分别定位*/
+.content .pic .price li:nth-child(1) {
+    background: rgba(143, 130, 219, 0.9);
+    top: -71px;
+    left: 20px;
+}
+
+.content .pic .price li:nth-child(2) {
+    background: rgba(237, 160, 210, 0.9);
+    top: -71px;
+    left: 418px;
+}
+
+.content .pic .price li:nth-child(3) {
+    background: rgba(143, 130, 219, 0.9);
+    top: -71px;
+    right: 250px;
+}
+
+.content .title .img {
+    width: 1170px;
+    list-style: none;
+}
+
+.content .pic .img > li {
+    width: 370px;
+    display: inline-block;
+    margin: 0px 11px;
+}
+
+.content .pic .note > li {
+    text-align: center;
+}
+
+.content .pic .note ul {
+    /*border: 1px solid red;*/
+    display: inline-block;
+    margin: 0px 11px;
+    list-style: none;
+    text-align: center;
+    width: 370px;
+    font-family: "Myriad Pro Regular";
+    font-size: 18px;
+    color: #707273;
+}
+
+.content .pic .note > ul > li {
+    width: 370px;
+    height: 48px;
+    line-height: 48px;
+}
+
+.content .pic .note > ul > li:nth-child(odd) {
+    background: #fcfcfe;
+}
+
+.content .pic .note > ul > li:nth-child(even) {
+    background: #f6f4fc;
+}
+
+.content .pic .note > ul > li:nth-child(6) {
+    line-height: 105px;
+    width: 370px;
+    height: 105px;
+}
+
+.content .pic .note span {
+    display: inline-block;
+    width: 213px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+.content .pic .note span {
+    cursor: pointer;
+}
+
+.content .pic .note .first span {
+    background: #ea8fca;
+}
+
+.content .pic .note .first span:hover {
+    background: #7b6cd5;
+}
+
+.content .pic .note .second span {
+    background: #7b6cd5;
+}
+
+.content .pic .note .second span:hover {
+    background: #ea8fca;
+}
+
+.content .pic .note .thrid span {
+    background: #ea8fca;
+}
+
+.content .pic .note .thrid span:hover {
+    background: #7b6cd5;
+}
+
+.content .pic .note .second {
+    display: inline-block;
+    margin: 0px 9px;
+}

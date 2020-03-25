@@ -1,0 +1,148 @@
+
+#top-banner{
+    background:url("../../../img/pages/ourTeam/Our-Team_01.bmp");
+    height: 500px;
+}
+#top-banner ul li p{
+    color: white;
+    text-align: center;
+}
+#top-banner ul li .tittle{
+    font-size: 60px;
+    margin-top: 195px;
+    font-weight: bold;
+    font-family:"Poppins";
+}
+.middle-banner{
+    max-width: 1920px;
+    width: 100%;
+    margin: 1px auto;
+    margin-top: 252px;
+    background: url("../../../img/pages/ourTeam/Our-Team_02.png")no-repeat;
+}
+.middle-banner img{
+    margin-left: 260px;
+    margin-top: -20px;
+}
+.middle-banner .artical{
+    width: 683px;
+    height: 200px;
+    margin-top: 170px;
+    margin-right:215px;
+    float: right;
+}
+.middle-banner .artical .tittle{
+    font-size: 40px;
+    font-weight:500;
+    font-family:"Poppins";
+    color: #ffffff;
+}
+.middle-banner .artical p{
+    color: rgba(247, 249, 250, 0.71);
+    font-size: 21px;
+    line-height:28px;
+    padding-top:18px;
+    font-family:"PTSans";
+}
+.middle-banner .artical .author{
+    color: white;
+    float: right;
+    font-weight:bold;
+}
+.container .coach-info .coach-img{
+    overflow: hidden;
+}
+.container .coach-info .coach-img:hover .more{
+    bottom: 0;
+}
+.container .coach-info .more{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(172, 156, 255, 0.4);
+    border-radius: 50%;
+    position:absolute;
+    bottom: -250px;
+    transition: all .2s ease;
+}
+.container .coach-info .more span{
+    display: inline-block;
+    width: 140px;
+    line-height:40px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    margin-top:100px;
+    vertical-align: middle;
+}
+
+/*教练信息*/
+.container{
+    width: 1170px;
+    height: 450px;
+    margin: 35px auto;
+    text-align: center;
+}
+
+.container .team-info .tittle{
+    font-size: 34px;
+    font-weight:bold;
+    color: #7b6cd5;
+
+}
+.container .team-info p{
+    font-size: 18px;
+    color: #707273;
+    padding:20px 70px;
+}
+.container .coach-info{
+    margin-top: 18px;
+}
+.container .coach-info .coach{
+    width: 270px;
+    position: absolute;
+
+}
+.container .coach-info  .coach1{
+    float: left;
+}
+.container .coach-info  .coach2{
+    margin-left:300px;
+}
+.container .coach-info .coach3{
+    margin-left:600px;
+}
+.container .coach-info  .coach4{
+    margin-left:900px;
+}
+.container .coach-info .coach .coach-img{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid #f3f1fb;
+    position: relative;
+}
+
+.container .coach-info .coach .coach-name{
+    color: #7b6cd5;
+    font-weight:600;
+    padding: 5px 0;
+}
+.container .coach-info .coach p:nth-child(3){
+    font-size: 13px;
+    color: #707273;
+}
+.container .coach-info .coach .coach4{
+    position:relative ;
+    float: right;
+}
+.container .coach-info .coach ul{
+    text-align: center;
+    margin-top: 30px ;
+    margin-left:60px;
+}
+.container .coach-info .coach ul li{
+    float: left;
+}.coach-info-down {
+     margin-top: 32px;
+    margin-bottom: 65px;
+ }

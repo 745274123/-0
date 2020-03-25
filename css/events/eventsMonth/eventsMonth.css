@@ -1,0 +1,256 @@
+/*ALL EVENTS*/
+.top-banner .top-banner-list li{
+    width: 1920px;
+    margin: 0 auto;
+}
+.content-title{
+    width: 1170px;
+    margin: 0 auto;
+}
+.content-title ul li{
+    width: 1170px;
+}
+.content-title-image{
+    position: relative;
+    left: 525px;
+    margin-top: 35px;
+}
+.content-title-title p{
+    height: 60px;
+    line-height: 42px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    color: #7b6cd5;
+}
+.content-title-info p{
+    line-height: 30px;
+    text-align: center;
+    font-family: PTSans;
+    font-size: 18px;
+    color: #7a7b7c;
+}
+/*Events搜索栏*/
+.content-search{
+    background-color: #7b6cd5;
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.content-search ul{
+    height: 150px;
+    overflow: hidden;
+}
+.content-search ul li{
+    float: left;
+    height: 80px;
+    margin: 25px 10px 40px;
+}
+.content-search ul li p{
+    font-family: Poppins;
+    font-size: 20px;
+    color: #ffffff;
+}
+.content-search ul li input{
+    width: 400px;
+    height: 50px;
+    margin-top: 5px;
+    padding: 0 25px;
+    border-radius: 25px;
+    border: 0;
+    outline: none;
+}
+.content-search ul li input::-webkit-input-placeholder{
+    font-family: PTSans;
+    font-size: 18px;
+    color: #a1a3a3;
+}
+.content-search ul .Find-Events{
+    width: 230px;
+}
+.content-search ul .Find-Events input{
+    width: 230px;
+    height: 50px;
+    margin-top: 40px;
+    font-family: PTSans;
+    font-size: 25px;
+    background-color: #ea8fca;
+    color: #ffffff;
+    cursor:pointer;
+}
+/*月，周，天  轴线*/
+.timer-tab-list{
+    margin-top: 52px;
+    height: 100px;
+    text-align: center;
+}
+.timer-hr{
+    margin: 21px auto;
+    width: 370px;
+    height: 1px;
+    border: none;
+    background-color: #e7e5f4;
+}
+.timer-tab-list a.timer-tab{
+    width: 170px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+/*日历上方Events For March 2017*/
+.content .event-month{
+    width: 1170px;
+    margin:0px auto;
+    overflow: hidden;
+}
+.content .event-month .prov-month{
+    width: 150px;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+}
+.content .event-month .prov-month span{
+    margin-left: 15px;
+    font-family: Poppins;
+    font-size: 21px;
+    color: #bdb5ea;
+}
+.content .event-month p{
+    width: 335px;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 275px;
+    font-family: Poppins;
+    font-size: 30px;
+    color: #7b6cd5;
+    float: left;
+}
+.content .event-month .next-month{
+    width: 110px;
+    height: 42px;
+    line-height: 42px;
+    float: right;
+}
+.content .event-month .next-month span{
+    margin-right: 15px;
+    font-family: Poppins;
+    font-size: 21px;
+    color: #bdb5ea;
+}
+/*日历部分*/
+.content .calendar{
+    width: 1170px;
+    margin: 20px auto 0px;
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.content .calendar li{
+    width: 165px;
+    height: 50px;
+    margin: 0 1px;
+    float: left;
+}
+.content .calendar .title li{
+    line-height: 50px;
+    text-align: center;
+    background-color: #ea8fca;
+    font-family: Poppins;
+    font-size: 18.45px;
+    color: #ffffff;
+}
+.content .calendar .days li{
+    line-height: 50px;
+    text-align: center;
+    background-color: #ebe9f9;
+    font-family: PTSans;
+    font-size: 18px;
+    color: #707273;
+}
+.content .calendar .activity li{
+    height: 120px;
+    color: #707273;
+    position: relative;
+}
+.content .calendar .activity li p{
+    width: 140px;
+    font-family: PTSans;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px auto 25px;
+}
+.content .calendar .activity li .times{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: #7b6cd5;
+    color: #ffffff;
+    text-align: center;
+    line-height: 28px;
+}
+.content .calendar ul .other-day{
+    color: #b3b4b7;
+}
+/*鼠标移入效果*/
+.content .calendar .day-information{
+    width: 273px;
+    height: 420px;
+    padding: 0 20px;
+    text-align: center;
+    position: absolute;
+    background-color: #fff;
+    top:190px;
+    left: 100px;
+    border-radius: 10px;
+    z-index: -1;
+}
+.content .calendar .day-information .inf-title{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6e65ad;
+}
+.content .calendar .day-information .inf-time{
+    font-family: PTSans;
+    font-size: 14px;
+    font-weight: bold;
+    color: #d4558c;
+    margin: 15px 0;
+}
+.content .calendar .day-information span{
+    font-family: PTSans;
+    font-size: 14px;
+    color: #5c5e5f;
+}
+.content .calendar .day-information .inf-inf{
+    font-family: PTSans;
+    font-size: 15px;
+    line-height: 20px;
+    color: #707273;
+    margin-top: 10px;
+}
+/*FOOT左上方按钮*/
+.export{
+    width: 1170px;
+    margin: 0 auto 50px;
+}
+.export-month-events{
+    width: 300px;
+    height: 50px;
+    background-color: #ea8fca;
+    font-family: PTSans;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.export-month-events a{
+    text-decoration: none;
+    color: #ffffff;
+}

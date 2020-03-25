@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="Description" content="瑜伽页面" />
+	<link rel="shortcut icon" type="image/x-icon" href="../../img/public/Aasana_logo1.ico"/>
+	<link rel="stylesheet" type="text/css" href="../../css/public/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/public/public.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/shop/shopCart/shopCart.css" />
+	<script src="../../js/public/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/public/public.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/shop/shopCart/shopCart.js"></script>
+	
+	<title>Shop - Cart</title>
+</head>
+
+<body>
+	<script src="../../js/public/header.js" type="text/javascript" charset="utf-8"></script>
+	<div class="top">
+		<div class="top-title">
+			<div class="top-nav">SINGLE PRODUCT</div>
+			<p>
+				<a href="../home/yoga.html">
+					<span>Home</span>
+				</a>
+				<span>&nbsp; > &nbsp; </span>
+				<span>Cart</span>
+			</p>
+		</div>
+    </div>
+	<div class="content">
+		<div class="title">
+			<span class="product">Product</span>
+			<span class="price">Price</span>
+			<span class="quantity">Quantity</span>
+			<span class="total">Total</span>
+		</div>
+		<!-- 产品数量 -->
+		<ul class="pro-item"></ul>
+		<!-- 产品数量 -->
+		<div class="uptate_cart">
+			<div class="fl coupon">
+				<input class="text" type="text" placeholder="Coupon code" />
+				<input class="submit" type="submit" value="Apply" />
+			</div>
+			<input type="submit" class="fr" value="Add to Cart"/>
+		</div>
+		<div class="checkout fr">
+			<ul>
+				<li><h2>Cart Totals:</h2></li>
+				<li><span class="fl">Subtotal:</span><span class="fr favourable">$22.50</span></li>
+				<li><span class="fl">Total:</span><span class="fr totals">$22.50</span></li>
+			</ul>
+			<a class="fr" href="shopCheckout.html">Proceed To Checkout</a>
+			
+		</div>
+		
+	</div>
+	<script src="../../js/public/footer_up2top.js" type="text/javascript" charset="utf-8"></script>
+</body>
+<script type="text/javascript">
+    // 头部预处理
+    $(".header").addClass("relative");
+    $(".header-logo-img").addClass("purple");
+    $(".userBar-icon.cart .counter").addClass("bgColor-223c");
+    $(".headerBar").addClass("purple");
+    $(".header-nav-content").addClass("purple");
+    $(".header-userBar span,.header-userBar a").addClass("black");
+    $(".item-shop").addClass("current");
+    // 脚部处理
+    $(".footer .Aasana-logo-img-big").addClass("purple");
+    $(".footer form a.send").addClass("purple");
+    $(".footer-social a").eq(0).addClass("facebook-227c");
+    $(".footer-social a").eq(1).addClass("instagram-7677c");
+    $(".footer-social a").eq(2).addClass("youtube-5135c");
+    $(".footer-nav").addClass("purple");
+    // 置顶按钮处理
+    $(".up2top .up2top-icon").addClass("pink");
+    nav_slide("#header-nav");
+    up2top("#up2top");
+</script>
+</html>

@@ -1,0 +1,186 @@
+.spread{
+	background: url(../../../img/home/dance/spread_bg.png) no-repeat;
+	background-size: 100%;
+	height: 840px;
+}
+.spread-info.fl{
+	margin-left: 120px;
+}
+.spread-info>div{
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.spread-info.fl>div>div{
+	float: left;
+	text-align: right;
+}
+.spread-info.fl .spread-info-icon{
+	margin-left: 18px;
+}
+.spread-info .spread-info-main p{
+	width: 370px;
+}
+.spread-info .spread-info-main h4{
+	font-size: 22px;
+	margin-top: 35px;
+	margin-bottom: .4em;
+}
+
+.danceClass{
+	
+}
+.danceClass-list{
+	height: 442px;
+}
+
+.danceHalls{
+	background-image: url(../../../img/home/dance/danceHalls_bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.danceClass-list .danceClass-item,.danceClass-list .danceClass-item .subList,.danceHalls-list .danceHalls-item,.danceHalls-list .danceHalls-item .subList{
+	float: left;
+}
+.danceClass-list .danceClass-item .subList:not(:first-child),.danceHalls-list .danceHalls-item .subList:not(:first-child){
+	margin-left: 30px;
+}
+.danceClass-link,.danceHalls-link{
+	display: block;
+}
+.danceClass-list .danceClass-item .title{
+	font-size: 24px;
+	line-height: 3em;
+}
+.danceHalls-list{
+	height: 370px;
+}
+
+.danceHalls .subContent-top .abstract{
+	color: #fff;
+}
+
+.count-list.gray .count-item{
+	border-color: rgba(111,111,111,.5);
+}
+.count-list.gray .count-item{
+	border-color: rgba(111,111,111,.5);
+}
+.count-list.gray .count-item.current{
+	background-color: rgba(111,111,111,1);
+	border-color: rgba(111,111,111,1);
+}
+.count-list.gray .count-item:hover{
+	background-color: rgba(111,111,111,1);
+	border-color: rgba(111,111,111,1);
+}
+
+.mid-banner .left-arrow,.mid-banner .right-arrow{
+	height: 11%;
+}
+
+
+.callOut2{
+	height: 531px;
+	background-image: url(../../../img/home/gym/spread3_bg.png);
+}
+
+
+.servicesForYou{
+	background: url(../../../img/home/dance/servicesForYou_bg.png) no-repeat center;
+	background-size: cover;
+}
+.servicesForYou-info>div{
+	overflow: hidden;
+}
+.servicesForYou-info>div:not(:last-child){
+	margin-bottom: 30px;
+}
+.servicesForYou-info.fl>div>div{
+	float: right;
+	text-align: left;
+}
+.servicesForYou-info.fr>div>div{
+	float: left;
+	text-align: right;
+}
+
+.servicesForYou-info.fl .servicesForYou-info-main{
+	margin-left: 30px;
+}
+.servicesForYou-info.fr .servicesForYou-info-main{
+	margin-right: 30px;
+}
+.servicesForYou-info-main p{
+	width: 270px;
+}
+.servicesForYou-info-main .title{
+	color: #8e6585;
+	font-size: 22px;
+	margin-top: 35px;
+	margin-bottom: .4em;
+}
+
+.schedule{
+	background-image: url(../../../img/home/dance/schedule_bg.png)
+}
+.schedule-content li{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+}
+.schedule-content .time-tab-list li{
+	float: left;
+	width: 166px;
+	color: #fff;
+	background-color: #e5b2c8;
+	transition: background-color .2s;
+}
+.schedule-content .time-tab-list li:hover,.schedule-content .time-tab-list li.current{
+	background-color: #7388e5;
+}
+.schedule-content .time-tab-list li:not(:first-child){
+	border-left: 1px solid #fff;
+}
+.schedule-content-list li:nth-child(odd){
+	background-color: #fff
+}
+.schedule-content-list li:nth-child(even){
+	background-color: rgba(230,179,201,.2);
+}
+.schedule-content-list li{
+	 padding-left: 40px;
+	 padding-right: 40px;
+	 text-align:justify;
+     text-align-last:justify;
+}
+.schedule-content-item>span{
+	width: 300px;
+	display: inline-block;
+}
+.schedule-content-list .class-name,.schedule-content-list .class-progress{
+	color: #8e6585;
+}
+.schedule-content-list .class-coache{
+	color: #777;
+	text-align: center;
+	text-align-last:center;
+
+}
+.schedule-content-list .class-name{
+	text-align: left;
+	text-align-last:left;
+
+}
+.schedule-content-list .class-progress{
+	text-align: right;
+	text-align-last:right;
+
+
+}
+.schedule-content-list .class-progress .progress-icon{
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+

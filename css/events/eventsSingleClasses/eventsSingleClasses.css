@@ -1,0 +1,287 @@
+#top-banner{
+    background:url("../../../img/events/eventsSingleClasses/EventsSingleClassesBackground.png");
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+}
+#top-banner ul li p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+#top-banner ul li .tittle{
+    font-size: 72px;
+    margin-top: 195px;
+    font-family:"Poppins";
+}
+
+/*中心内容部分*/
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/*中心左边内容部分*/
+/*上中部分*/
+.container .main-information{
+    width: 870px;
+    margin-top: 50px;
+    float: left;
+}
+.container .main-information .workShop .title{
+    margin-top: 25px;
+    overflow: hidden;
+}
+.container .main-information .workShop .title-left{
+    font-family: Poppins;
+    font-size: 36px;
+    line-height: 38px;
+    color: #7b6cd5;
+    float: left;
+}
+.container .main-information .workShop .title-right{
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 20px;
+    font-size: 24px;
+    background-color: #7b6cd5;
+    color: #ffffff;
+    float: right;
+}
+.container .main-information .workShop .workShop-days{
+    font-family: PTSans;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #d4558c;
+}
+.container .main-information .workShop span{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    font-family: PTSans;
+    font-size: 18px;
+    color: #707273;
+}
+.container .main-information .workShop .workShop-information{
+    margin-top: 15px;
+    font-family: PTSans;
+    font-size: 18px;
+    line-height: 30px;
+    color: #707273;
+}
+.container .main-information .workShop ul{
+    width: 870px;
+    overflow: hidden;
+}
+.container .main-information .workShop ul li{
+    width: 370px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin: 45px 50px 0 0;
+    font-family: PTSans;
+    font-size: 18px;
+    color: #707273;
+    float: left;
+}
+.container .main-information .center-line{
+    margin-top: 60px;
+    border: 1px solid #e5e2f7;
+}
+
+.container .main-information .austin{
+    width: 870px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.container .main-information .austin .austin-pic{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.container .main-information .austin .austin-infor{
+    width: 570px;
+    float: right;
+}
+.container .main-information .austin .austin-infor .title{
+    font-family: Poppins;
+    font-size: 26px;
+    color: #7b6cd5;
+}
+.container .main-information .austin .austin-infor .experience{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight:bold ;
+    color: #7b6cd5;
+}
+.container .main-information .austin .austin-infor .main-information{
+    width: 570px;
+    font-family: PTSans;
+    font-size: 18px;
+    color: #707273;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.container .main-information .austin .austin-infor .coach{
+    height: 18px;
+    font-family: PTSans;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.container .main-information .austin .austin-infor .coach a{
+    text-decoration: underline;
+    color: #ea8fca;
+}
+.container .main-information .flower-line{
+    margin:30px  0;
+}
+/*下方幻灯片*/
+.slide{
+    width: 870px;
+    overflow: hidden;
+}
+.slide-top-title{
+    overflow: hidden;
+}
+.slide .slide-top-title p{
+    font-family: Poppins;
+    font-size: 36px;
+    height: 42px;
+    line-height: 42px;
+    color: #7b6cd5;
+    float: left;
+}
+.slide .pic{
+    width: 90px;
+    height: 42px;
+    float: right;
+    cursor: pointer;
+    overflow: hidden;
+}
+.slide .pic .prev{
+    float: left;
+}
+.slide .pic .next{
+    margin-left: 6px;
+    float: left;
+}
+.slide-information{
+    width: 300%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.slide-information ul{
+    width: 300%;
+}
+.slide-information ul li{
+    float: left;
+    margin-right: 30px;
+}
+.slide-information p{
+    font-family: PTSans;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: #d4558c;
+}
+.slide-information h2{
+    font-family: Poppins;
+    font-size: 21px;
+    color: #6e65ad;
+    margin-top: 20px;
+}
+.slide-information span{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    font-family: PTSans;
+    font-size: 16px;
+    color: #949598;
+    margin: 15px 0 20px;
+}
+/*侧边栏*/
+.container .asider{
+    float:right;
+    width: 270px;
+    margin-top: 50px;
+}
+.container .asider .sementing-line{
+    margin-top: 15px;
+}
+.container .asider input{
+    width: 268px;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 25px;
+    border: 1px solid #bdb5ea;
+    background:url("../../../img/events/eventsSingleClasses/eventsSingle-search.png")no-repeat 230px ;
+    outline: none;
+}
+.container .asider .title2{
+    font-size: 20px;
+    padding: 15px 0;
+    color: #7b6cd5;
+}
+.container .asider .num{
+    color: #b2b2b2;
+}
+.container .asider .categories p{
+    margin-left: 20px;
+    text-align: left;
+}
+.container .asider .categories ul li{
+    text-align: left;
+    padding: 10px 20px;
+}
+.container .asider .categories ul li:nth-of-type(odd){
+    background: #f6f5fc;
+}
+.container .asider .recent  ul li{
+    width: 250px;
+    height: 70px;
+    padding: 10px;
+}
+.container .asider .recent  ul li:nth-of-type(odd){
+    background: #f6f5fc;
+}
+.container .asider .recent  ul li img{
+    float: left;
+}
+.container .asider .recent  ul li .mssage{
+    float: right;
+    margin-right: 30px;
+}
+.container .asider .recent .mssage{
+}
+.container  .asider .tag a{
+    display: inline-block;
+    padding: 5px 10px ;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #ea8fca;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.container .asider .instagram{
+    padding: 0;
+    margin: 0;
+}
+.container .asider .instagram ul{
+    height: 270px;
+}
+
+.container .asider .instagram ul li {
+    float: left;
+    margin:5px 0 0px 5px;}
+.footer{
+    margin-top: 100px;
+}

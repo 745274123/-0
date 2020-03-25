@@ -1,0 +1,43 @@
+.header #black{color:#666;}
+.header #black:hover,.header .current{ border-color:#7b6cd5;}
+div.top{height: 95px; width: 100%; background-color: #7b6cd5;}
+.top .top-title{ margin: 0 auto;width: 1170px; line-height:95px;vertical-align: middle;}
+.top .top-title .top-nav{float: left; font-size: 48px; font-family:"Poppins"; color: white;}
+.top .top-title a{ color: #cac4ee;}
+.top .top-title p{ float: right; font-size: 18px; color: #cac4ee;}
+.content{width:1170px; margin:0px auto;}
+.content .title{width:1160px; height:50px; background:#ebe9f9; margin:50px auto 20px; line-height:50px; color:#707273;padding-left:10px;} 
+.content .title .price{margin-left:450px;}
+.content .title .quantity{margin-left:136px;}
+.content .title .total{margin-left:136px;}
+.content ul.pro-item{width:1170px; margin:0 auto;}
+.content ul.pro-item li{margin-bottom:20px; position:relative;}
+.content ul.pro-item li:nth-child(2n-2){background:#ebe9f9;}
+.content ul.pro-item li a>img{width:100px; height:100px; margin-right:50px;float:left;}
+.content ul.pro-item li div.name{display: table-cell; height:100px;font-family:"PTSans";vertical-align: middle;}
+.content ul.pro-item li div.name h2{font-size: 18px; color:#7b6cd5;}
+.content ul.pro-item li div.name h3{font-size: 16px; color:#707273;}
+.content ul.pro-item li div.price{position:absolute; left:510px; top:40px; font-size:16px; color:#707273;}
+.content ul.pro-item li div.quantity{position:absolute; left:680px; top:30px;}
+.content .pro-item div.quantity{width:58px; height:38px; border:1px solid #bdb5ea; border-radius:19px; padding:0 16px; display:inline-block;background:#fff;}
+.content .pro-item div.quantity .text{width:40px; height:38px; line-height:38px; text-align:center; font-family:"PTSans"; font-size:18px; color:#707273; outline:none;border:none;}
+.content .pro-item div.quantity .btn{width:11px; height:38px; position:relative;}
+.content .pro-item div.quantity .btn img{position:absolute; cursor:pointer;}
+.content .pro-item div.quantity .btn img.add{top:8px;}
+.content .pro-item div.quantity .btn img.minus{bottom:8px;}
+.content .pro-item div.total{position:absolute; left:880px; top:40px; font-size:16px; color:#707273;}
+.content .pro-item a.del{display:inline-block; width:14px; height:14px; background:url(../../../img/shop/shop/image-del.png) no-repeat center; position:absolute; right:30px; top:43px;}
+.content .uptate_cart{width:1130px; height:104px; margin:0px auto; overflow:hidden; background:#f7f6fb;padding:0px 20px;}
+.content .uptate_cart div.coupon{width:348px; height:38px; border:1px solid #b9b1e8; border-radius:19px; background:#fff; margin-top:30px;position:relative;}
+.content .uptate_cart div.coupon .text{margin:0px; width:226px; height:38px; background:#fff; padding:0px 10px; color:#707273;}
+.content .uptate_cart div.coupon .submit{width:100px; height:40px; border-radius:20px; text-align:center;position:absolute;top:-1px;right:-1px;margin:0px; cursor:pointer;}
+.content .uptate_cart input{width:214px; height:46px; border:none; border-radius:23px; background:#ea8fca; font-family:"PTSans"; font-size:20px; color:#ffffff; outline:none; margin-top:26px;}
+.content .uptate_cart>input{cursor:pointer;}
+.content .checkout{width:370px; margin:60px 0px 100px;}
+.content .checkout li{height:52px; border-bottom:1px solid #e5e2f7; line-height:52px;}
+.content .checkout li h2{font-family:"Poppins"; font-size: 24px; line-height:52px; color:#7b6cd5;}
+.content .checkout li span{font-family:"PTSans"; font-size:18px; color:#707273;}
+.content .checkout li span.totals{color:#7b6cd5; font-weight:bold;}
+.content .checkout a{display:inline-block;width:214px; height:46px; border:none; border-radius:23px; background:#ea8fca; font-family:"PTSans"; font-size:20px; color:#ffffff; outline:none; cursor:pointer; margin-top:26px;text-align:center;line-height:46px;}
+
+

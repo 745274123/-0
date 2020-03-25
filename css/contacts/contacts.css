@@ -1,0 +1,124 @@
+body{
+    overflow-x: hidden;
+}
+.content {
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 1920px;
+
+}
+
+.content > img {
+    margin-bottom: -2px;
+}
+
+.content .icon {
+    width: 1170px;
+    height: 520px;
+    margin: 0px auto;
+    border: 2px solid #d3cef2;
+}
+
+.content .icon>div {
+    width: 1155px;
+    height: 504px;
+    margin: 6px auto;
+}
+.content .info{
+    overflow: hidden;
+}
+.content .info .content-details {
+    float: left;
+    width: 340px;
+    height: 445px;
+    margin-left: 371px;
+}
+
+.content .info .content-details h4 {
+    text-align: left;
+    margin-top: 42px;
+    font-family: Poppins-Medium;
+    font-size: 24px;
+    color: #7b6cd5;
+}
+
+.content .info .content-details p {
+    text-align: left;
+    margin-top: 28px;
+    margin-bottom: 25px;
+    font-family: "PTSans Regular";
+    font-size: 18px;
+    color: #707273;
+}
+
+.content .info .content-details ul li {
+    list-style: none;
+    text-align: left;
+    font-family: "PTSans Regular";
+    font-size: 18px;
+    color: #707273;
+}
+
+.content .info .content-details ul li:nth-child(2) {
+    margin: 30px auto;
+}
+
+/*下面是表单CSS样式*/
+.content .info .from {
+    margin-left: 60px;
+    float: left;
+    text-align: left;
+}
+
+.content .info .from h4 {
+    text-align: left;
+    margin-top: 42px;
+    margin-bottom: 10px;
+    font-family: Poppins-Medium;
+    font-size: 24px;
+    color: #7b6cd5;
+}
+
+.content .info .from input[type="text"] {
+    width: 330px;
+    height: 40px;
+    margin-top: 23px;
+    border-radius: 20px;
+    border: 1px solid #bdb5ea;
+    /*▲用padding值填充可以改变里面字的位置，且可是输入的内容不至于太靠边*/
+    padding: 0 20px;
+}
+.content .info .from input:nth-child(2) {
+    margin-left: 23px;
+}
+.content .info .from input:nth-child(4) {
+    margin-right: 23px;
+}
+/*文本框*/
+.content .info .from textarea {
+    width: 732px;
+    height: 66px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #bdb5ea;
+   /*padding值填充让里面提示内容下移和右移*/
+    padding: 20px 20px;
+}
+
+.content .info .from input[type="submit"] {
+    width: 174px;
+    height: 44px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #ea8fca;
+    font-family: pt-sans-bold;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.content .info .from input[type="submit"]:hover {
+    background: #7b6cd5;
+}
